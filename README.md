@@ -3,6 +3,9 @@
 NOTE: Due to 1.13 Roads to power patch, A LOT of game files have changed, so instead of waiting a long time before seeing the patch I'll just make small update in order to get the patch out quicker.
 For now the goal is to not make the game crash while still having the mod enabled !
 
+Unfixable bugs from my side:
+- Royal court food amenity bonus given to characters in your dungeon
+
 Here is the list of ported fixes (or new ones) at the moment:
 
 common
@@ -35,9 +38,11 @@ common
                 > Fix wrong domicile parameter check
 
     scripted_effects
+        00_holy_order_effects.txt
+            > Fix the executioner recruitment
         00_prison_effects.txt
             > Fix the mass ransom when you have Practiced Kidnappers
-    
+
     scripted_triggers
         00_court_position_triggers.txt
             > Add some missing exclusive court/officer position inside court_position_does_not_already_have_a_job_trigger

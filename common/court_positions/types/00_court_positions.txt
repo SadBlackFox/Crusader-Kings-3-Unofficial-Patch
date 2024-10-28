@@ -9677,7 +9677,9 @@ court_scholar_court_position = {
 		}
 		if = {
 			limit = {
-				scope:liege.dynasty ?= { has_dynasty_perk = fp3_khvarenah_legacy_1 }
+				employer ?= {
+					dynasty ?= { has_dynasty_perk = fp3_khvarenah_legacy_1 }
+				}
 			}
 			add = {
 				value = 10
@@ -9769,8 +9771,8 @@ court_scholar_court_position = {
 		}
 		if = {
 			limit = {
-				scope:liege.culture ?= {
-					has_innovation = fp3_innovation_mural_sextant
+				employer ?= {
+					culture ?= { has_innovation = fp3_innovation_mural_sextant }
 				}
 			}
 			add = {

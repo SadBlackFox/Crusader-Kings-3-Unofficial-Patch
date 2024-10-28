@@ -174,7 +174,7 @@ siege.0001 = {
 					value = intrigue
 					multiplier = -1
 					min = -20
-					}
+				}
 				compare_modifier = { #Adds -10 for 20 prowess, -5 for 10 prowess
 					#target = this
 					value = prowess
@@ -183,7 +183,7 @@ siege.0001 = {
 				}
 				# Less likely to capture the estate owner themselves
 				modifier = {
-					this = scope:estate_owner
+					scope:estate_owner ?= this
 					add = -10
 				}
 				# If there is an estate, Watchtowers and Guardhouses make captures less likely
@@ -1232,11 +1232,11 @@ siege.0031 = {
 					# Lower the chance of nothing if you have a Master of Spoils Officer
 					modifier = {
 						add = {
-							value = court_position:master_of_spoils_camp_officer.aptitude:master_of_spoils_camp_officer
+							value = root.court_position:master_of_spoils_camp_officer.aptitude:master_of_spoils_camp_officer
 							add = 1
 							multiply = -2
 						}
-						holder = { employs_court_position = master_of_spoils_camp_officer }
+						root = { employs_court_position = master_of_spoils_camp_officer }
 					}
 				}
 			}
