@@ -7515,6 +7515,9 @@ hold_court.6080 = {
 		}
 		scope:6080_county = {
 			random_county_province = {
+				limit = {
+					has_holding = no
+				}
 				save_scope_as = 6080_province
 			}
 		}
@@ -17333,30 +17336,30 @@ hold_court.8090 = {
 						CHAR = scope:vassal
 						COURT_POS = executioner_court_position
 					}
-					NOR = {
-						scope:vassal.var:target_court_position ?= flag:executioner
-						scope:vassal.var:backup_court_position ?= flag:executioner
-					}
+					#NOR = {
+					#	scope:vassal.var:target_court_position ?= flag:executioner
+					#	scope:vassal.var:backup_court_position ?= flag:executioner
+					#}
 				}
 				AND = {
 					can_appoint_char_to_court_position = {
 						CHAR = scope:vassal
 						COURT_POS = court_jester_court_position
 					}
-					NOR = {
-						scope:vassal.var:target_court_position ?= flag:court_jester
-						scope:vassal.var:backup_court_position ?= flag:court_jester
-					}
+					#NOR = {
+					#	scope:vassal.var:target_court_position ?= flag:court_jester
+					#	scope:vassal.var:backup_court_position ?= flag:court_jester
+					#}
 				}
 				AND = {
 					can_appoint_char_to_court_position = {
 						CHAR = scope:vassal
 						COURT_POS = food_taster_court_position
 					}
-					NOR = {
-						scope:vassal.var:target_court_position ?= flag:food_taster
-						scope:vassal.var:backup_court_position ?= flag:food_taster
-					}
+					#NOR = {
+					#	scope:vassal.var:target_court_position ?= flag:food_taster
+					#	scope:vassal.var:backup_court_position ?= flag:food_taster
+					#}
 				}
 			}
 		}
@@ -17378,10 +17381,10 @@ hold_court.8090 = {
 					CHAR = scope:vassal
 					COURT_POS = executioner_court_position
 				}
-				NOR = {
-					scope:vassal.var:target_court_position = flag:executioner
-					scope:vassal.var:backup_court_position = flag:executioner
-				}
+				#NOR = {
+				#	scope:vassal.var:target_court_position = flag:executioner
+				#	scope:vassal.var:backup_court_position = flag:executioner
+				#}
 			}
 			court_position_grant_effect = {
 				EMPLOYER = root
@@ -17403,10 +17406,10 @@ hold_court.8090 = {
 					CHAR = scope:vassal
 					COURT_POS = court_jester_court_position
 				}
-				NOR = {
-					scope:vassal.var:target_court_position = flag:court_jester
-					scope:vassal.var:backup_court_position = flag:court_jester
-				}
+				#NOR = {
+				#	scope:vassal.var:target_court_position = flag:court_jester
+				#	scope:vassal.var:backup_court_position = flag:court_jester
+				#}
 			}
 			court_position_grant_effect = {
 				EMPLOYER = root
@@ -17424,10 +17427,10 @@ hold_court.8090 = {
 					CHAR = scope:vassal
 					COURT_POS = food_taster_court_position
 				}
-				NOR = {
-					scope:vassal.var:target_court_position = flag:food_taster
-					scope:vassal.var:backup_court_position = flag:food_taster
-				}
+				#NOR = {
+				#	scope:vassal.var:target_court_position = flag:food_taster
+				#	scope:vassal.var:backup_court_position = flag:food_taster
+				#}
 			}
 			court_position_grant_effect = {
 				EMPLOYER = root

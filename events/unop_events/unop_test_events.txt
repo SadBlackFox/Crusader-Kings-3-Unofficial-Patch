@@ -326,75 +326,26 @@ unop_tests.0004 = {
 	}
 
 	option = {
-		hidden_effect = {
+		name = test_court_events.1.a
+		send_interface_toast = {
+			title = test_court_events.1.a
+			left_icon = scope:beauty_female
+			right_icon = scope:ugly_male
 			random_list = {
-				50 = { save_scope_as = depressed }
-				50 = { save_scope_as = sadistic }
+				1 = {
+					desc = passage_rites_effect.trait
+					flip_sinful_trait_effect = yes
+				}
+				1 = {
+					desc = passage_rites_effect.xp
+					add_learning_lifestyle_xp = major_lifestyle_xp
+				}
+				1 = {
+					desc = passage_rites_effect.skill
+					add_learning_skill = 1
+				}
 			}
 		}
-		show_as_tooltip = {
-			random_list = {
-				50 = {
-					scope:beauty_female = { add_trait_force_tooltip = depressed_1 }
-				}
-				50 = {
-					scope:beauty_female = { add_trait_force_tooltip = sadistic }
-				}
-			}
-		}
-
-		#random_list = {
-   			#60 = {
-   			#	send_interface_toast = {
-			#		title = polymath_flight_attempt_toast.success
-			#		left_icon = scope:enthusiastic_child
-			#		right_icon = scope:ugly_male
-   			#		add_prestige = medium_prestige_gain
-   			#		add_courtier = scope:ugly_male
-   			#		random = {
-   			#			chance = 20
-   			#			scope:beauty_female = { add_trait_force_tooltip = brave }
-   			#		}
-   			#	}
-   			#}
-   			#100 = {
-				send_interface_toast = {
-					title = polymath_flight_attempt_toast.failure
-					left_icon = scope:beauty_female
-					right_icon = scope:ugly_male
-					scope:ugly_male = {
-						death = { death_reason = death_flight_attempt }
-					}
-					#hidden_effect = {
-						if = { 
-							limit = { exists = scope:depressed }
-							scope:beauty_female = { add_trait_force_tooltip = depressed_1 }
-						}
-						if = {
-							limit = { exists = scope:sadistic }
-							scope:beauty_female = { add_trait_force_tooltip = sadistic }			
-						}
-					#}
-				}
-			#}
-		#}
-	}
-
-	option = {
-		name = insult_poetry.0001.t
-		blah_effect = { SKILL = diplomacy }
-	}
-	option = {
-		name = insult_poetry.0001.t
-		blah_effect = { SKILL = martial }
-	}
-	option = {
-		name = insult_poetry.0001.t
-		blah_effect = { SKILL = stewardship }
-	}
-	option = {
-		name = insult_poetry.0001.t
-		blah_effect = { SKILL = intrigue }
 	}
 }
 

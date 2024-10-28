@@ -14128,15 +14128,13 @@ ep3_laamp_flavour_ewan.3031 = {
 		ordered_claim = {
 			limit = { ep3_laamp_flavour_ewan_3031_claim_adjacent_title_trigger = yes }
 			order_by = {
-				holder = {
-					# If we're a player, order it by their opinion of us.
-					if = {
-						limit = { is_ai = no }
-						value = "reverse_opinion(root)"
-					}
-					# Otherwise, order by our opinion of them.
-					else = { value = "opinion(root)" }
+				# If we're a player, order it by their opinion of us.
+				if = {
+					limit = { holder = { is_ai = no } }
+					value = "holder.reverse_opinion(root)"
 				}
+				# Otherwise, order by our opinion of them.
+				else = { value = "holder.opinion(root)" }
 			}
 			save_scope_as = adjacent_title
 		}
@@ -22169,7 +22167,7 @@ ep3_laamp_flavour_ewan.9512 = {
 					scope:skill = flag:prowess
 				}
 			}
-			animation = marshal #Unop: Was martial
+			animation = marshal
 		}
 		triggered_animation = {
 			trigger = { scope:skill = flag:stewardship }

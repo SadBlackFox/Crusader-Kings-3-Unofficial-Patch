@@ -4556,8 +4556,8 @@ epidemic_events.1121 = {
 					left_icon = root
 					right_icon = scope:peasant_1
 
-					scope:location = {
-						add_province_modifier = {
+					scope:flung_corpse_location = { #Unop: Was scope:location and it does not exists
+						add_county_modifier = { #Unop: Was add_province_modifier but the desc of this modifier specify only a county is affected
 							modifier = ce1_quarantined_corpse
 							years = 10
 						}
@@ -5075,8 +5075,10 @@ epidemic_events.3010 = {
 		location = {
 			any_province_epidemic = {
 				count >= 1
+				save_temporary_scope_as = temp_epidemic_scope
 			}
 		}
+		unop_can_contract_disease_trigger = { DISEASE = scope:temp_epidemic_scope.epidemic_type.epidemic_trait }
 	}
 
 	immediate = {
@@ -5088,27 +5090,27 @@ epidemic_events.3010 = {
 				save_scope_as = epidemic_scope
 			}
 		}
-		hidden_effect = {
-			create_character = {
-				template = peasant_character
-				dynasty = none
-				location = root.location
-				culture = root.location.culture
-				faith = root.location.faith
-				gender_female_chance = 50
-				save_scope_as = sick_peasant
-			}
-			scope:sick_peasant = {
-				if = {
-					limit = {
-						#unop_can_contract_disease_trigger = { DISEASE = scope:epidemic_scope.epidemic_type.epidemic_trait }
-						always = yes
-					}
-					show_as_tooltip = { add_trait = scope:epidemic_scope.epidemic_type.epidemic_trait }
-					hidden_effect = { infect_with_epidemic = scope:epidemic_scope }
-				}
-			}
-		}
+		#hidden_effect = {
+		#	create_character = {
+		#		template = peasant_character
+		#		dynasty = none
+		#		location = root.location
+		#		culture = root.location.culture
+		#		faith = root.location.faith
+		#		gender_female_chance = 50
+		#		save_scope_as = sick_peasant
+		#	}
+		#	scope:sick_peasant = {
+		#		if = {
+		#			limit = {
+		#				#unop_can_contract_disease_trigger = { DISEASE = scope:epidemic_scope.epidemic_type.epidemic_trait }
+		#				always = yes
+		#			}
+		#			show_as_tooltip = { add_trait = scope:epidemic_scope.epidemic_type.epidemic_trait }
+		#			hidden_effect = { infect_with_epidemic = scope:epidemic_scope }
+		#		}
+		#	}
+		#}
 	}
 	
 	option = { # You are very clever
@@ -5214,15 +5216,15 @@ epidemic_events.3010 = {
 	}
 	
 	after = {
-		hidden_effect = {
-			if = {
-				limit = { is_ai = yes }
-				scope:sick_peasant = { silent_disappearance_effect = yes }
-			}
-			else = {
-				scope:sick_peasant = { move_to_pool = yes }
-			}
-		}
+		#hidden_effect = {
+		#	if = {
+		#		limit = { is_ai = yes }
+		#		scope:sick_peasant = { silent_disappearance_effect = yes }
+		#	}
+		#	else = {
+		#		scope:sick_peasant = { move_to_pool = yes }
+		#	}
+		#}
 	}
 }
 
@@ -9629,28 +9631,28 @@ epidemic_events.5906 = {
 			IMPRISONER = root
 		}
 
-		random = {
-			chance = 50
-			scope:doomsday_province = {
+		scope:doomsday_province = {
+			random = {
+				chance = 50
 				add_province_modifier = {
 					modifier = pacified_flagellants
 					years = 10
 				}
-				hidden_effect = {
-					every_neighboring_province = {
-						random = {
-							chance = 25
-							add_province_modifier = {
-								modifier = pacified_flagellants
-								years = 10
-							}
+			}
+			hidden_effect = {
+				every_neighboring_province = {
+					random = {
+						chance = 25
+						add_province_modifier = {
+							modifier = pacified_flagellants
+							years = 10
 						}
 					}
 				}
 			}
 		}
 
-		custom_tooltip = epidemic_events.5904.d.tt
+		custom_tooltip = epidemic_events.5906.d.tt
 
 		stress_impact = {
 			calm = minor_stress_impact_gain

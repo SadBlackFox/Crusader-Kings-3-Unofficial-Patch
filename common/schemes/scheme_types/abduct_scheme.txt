@@ -162,6 +162,7 @@
 				add = -40
 				desc = "sway_foreign_target"
 				scope:target = {
+					exists = liege_or_court_owner #Unop: Do not protect wandering characters
 					is_foreign_court_or_pool_guest = no
 					NOT = {
 						scope:target.top_liege = scope:owner.top_liege

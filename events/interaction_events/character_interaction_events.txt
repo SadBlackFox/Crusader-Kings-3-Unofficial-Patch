@@ -1308,7 +1308,7 @@ char_interaction.0231 = {
 				limit = {
 					scope:actor = { is_rightful_liege_of = scope:recipient }
 				}
-				scope:actor = { add_legitimacy = miniscule_legitimacy_loss }
+				scope:actor = { add_legitimacy_effect = { LEGITIMACY = miniscule_legitimacy_loss } }
 			}
 		}
 		show_as_tooltip = {
