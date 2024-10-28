@@ -1,28 +1,31 @@
-[Unofficial patch] 8.0.8
+# [Unofficial patch] 8.0.8
 
 NOTE: Due to 1.13 Roads to power patch, A LOT of game files have changed, so instead of waiting a long time before seeing the patch I'll just make small update in order to get the patch out quicker.
 For now the goal is to not make the game crash while still having the mod enabled !
 
+---
 
-[TL;DR] AKA: What change ?
-    - error.log file will eat way less disk space
-    - Some events now correctly apply the effects
-    - Less events with '.' as text options
-    - Less spouse cheating
-    - Dynamic culture cost / reward for dynasty prestige is now working
-    - Marshall train commander task can now train more the once the same knight
-    - Many other things, but check the in-depth changelog below
+### [TL;DR] AKA: What change ?
+ - error.log file will eat way less disk space
+ - Some events now correctly apply the effects
+ - Less events with '.' as text options
+ - Less spouse cheating
+ - Dynamic culture cost / reward for dynasty prestige is now working
+ - Marshall train commander task can now train more the once the same knight
+ - Many other things, but check the in-depth changelog below
 
------
+---
 
-Unfixable bugs from my side:
+### Unfixable bugs from my side:
 - Royal court food amenity bonus given to characters in your dungeon
 - The Barber's Tent disease resistances is not applying to all camp followers
 - Forder trait does not negate river crossing penalties
 - The typo in the excerpt on the table being 'ma tyly' instead of maȝtyly
 
-Here is the list of ported fixes (or new ones) at the moment:
+---
 
+### Here is the list of ported fixes (or new ones) at the moment:
+```
 common
     activities
         activity_types
@@ -292,3 +295,4 @@ gui
         > Allow the tax collector button to be show as soon as you have a taxable vassal
 
 map_data/* => Fix the don river navigation issue & Ryazan county bordering the county of Tundokev
+```
