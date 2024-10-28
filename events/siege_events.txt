@@ -275,9 +275,9 @@ siege.0001 = {
 			every_player = {
 				limit = {
 					NOR = {
-						this = root
-						this = scope:barony.holder
-						this = scope:estate_owner
+						root = this
+						scope:barony.holder ?= this 
+						scope:estate_owner ?= this 
 					}
 					save_temporary_scope_as = notification_target
 					any_in_list = {
@@ -309,9 +309,9 @@ siege.0001 = {
 			every_player = {
 				limit = {
 					NOR = {
-						this = root
-						this = scope:barony.holder
-						this = scope:estate_owner
+						root = this
+						scope:barony.holder ?= this 
+						scope:estate_owner ?= this 
 					}
 
 					save_temporary_scope_as = notification_target

@@ -5,6 +5,7 @@ For now the goal is to not make the game crash while still having the mod enable
 
 Unfixable bugs from my side:
 - Royal court food amenity bonus given to characters in your dungeon
+- The Barber's Tent disease resistances is not applying to all camp followers
 
 Here is the list of ported fixes (or new ones) at the moment:
 
@@ -22,11 +23,18 @@ common
         types
             00_court_positions.txt
                 > Fix court gardener recruitment using court_artificer_validity_trigger
+                > Fix 2 court scholar aptitude bonus
 
     character_interactions
         00_scheme_interactions.txt
             > Fix abduct interaction not checking the domicile building
 
+    domiciles
+        buildings
+            00_estate_buildings.txt
+                > Fix estate graphics defaulting to byzantine skin if you have the iranian graphic group
+                > Fix wrong label for the living quarter gold reduction
+                > Fix incorrect file reference for the byzantine mask
 
     important_actions
         00_personal_actions.txt
@@ -53,10 +61,28 @@ events
     scheme_events
         laamp_base_contract_scheme_events.txt
             > Add an exists check to prevent many errors in the log file
+            > Fix a wrong scope used for the gold received for the employer in laamp_base_contract_schemes.2002
+
     siege_events.txt
-        > Revert a bug caused by 1.13 patch preventing you to capture people after a siege    
+        > Revert a bug caused by 1.13 patch preventing you to capture people after a siege
+        > Fix master of spoils camp officer not increasing the chance to get an artifact after a siege
+
+    trait_specific_events
+        trait_specific_events.txt
+            > trait_specific.1010 & trait_specific.2002 & trait_specific.3002 have been harmonized to enable the genetic bad trait (if you have one) instead of adding the non-genetic one
+            > Fix trait_specific.8501 out of order scope definition & duplicate effect usage
+
+    travel_events
+        travel_events_james.txt
+            > Prevent travel_events.4013 to add a friend relation if you already have one
+            > Fix travel_events.4033 memory if you burn the witch
+            > Fix travel_events.4036 not defining required artifact variables that cause some script errors later
 
 gfx
     map\map_object_data: New files for the map_data modifications
+
+gui
+    hud.gui
+        > Allow the tax collector button to be show as soon as you have a taxable vassal
 
 map_data/* => Fix the don river navigation issue & Ryazan county bordering the county of Tundokev
