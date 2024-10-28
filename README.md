@@ -29,12 +29,17 @@ common
         00_scheme_interactions.txt
             > Fix abduct interaction not checking the domicile building
 
+    customizable_localization
+        05_bp2_custom_loc.txt
+            > Fix RockStoryName missing roxanne & barney entries leading to blank text in events
+
     domiciles
         buildings
             00_estate_buildings.txt
                 > Fix estate graphics defaulting to byzantine skin if you have the iranian graphic group
                 > Fix wrong label for the living quarter gold reduction
                 > Fix incorrect file reference for the byzantine mask
+                > Fix market_06 intersectionmask_texture path
 
     important_actions
         00_personal_actions.txt
@@ -58,10 +63,24 @@ common
             > Fix has_high_health_penalty_disease_type_trigger & has_low_health_penalty_disease_type_trigger for elderly/child characters who have consumption or measles 
 
 events
+    dlc
+        ce1
+            legend_spread_events_nick.txt
+                > Fix legend_spread_events.5305 that could potentially select a ruler that is already spreading your legend as a valid legend promoter
+                > Fix legend_spread_events.5310 that could potentially select a ruler that is already spreading your legend as a valid legend promoter
+            legend_spread_events_8.txt
+                > Fix legend_spread_events.8122 by ensuring saved ruler is still the actual ruler once you arrive on the land
+                > 
+
     scheme_events
         laamp_base_contract_scheme_events.txt
             > Add an exists check to prevent many errors in the log file
             > Fix a wrong scope used for the gold received for the employer in laamp_base_contract_schemes.2002
+        scheme_critical_moments_events.txt
+            > Fix scheme_critical_moments.0001 incorrect scheme type selection
+            > Misc cleanup of scheme_critical_moments.1174 wild if
+            > Fix scheme_critical_moments.8031 missing the mark building condition
+            > Fix raid_estate_success_effect missing the market flag
 
     siege_events.txt
         > Revert a bug caused by 1.13 patch preventing you to capture people after a siege
