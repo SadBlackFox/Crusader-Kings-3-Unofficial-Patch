@@ -101,3 +101,13 @@ unop_current_situation_gold_increased_ransom = {
 	}
 	max = increased_ransom_cost_value
 }
+
+unop_court3031_number_of_counties_of_culture = {
+	value = 0
+	every_sub_realm_county = {
+		limit = {
+			culture = root.var:unop_court_3031_culture
+		}
+		add = 1
+	}
+}

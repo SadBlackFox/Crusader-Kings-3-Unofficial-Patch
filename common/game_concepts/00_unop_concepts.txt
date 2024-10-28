@@ -1,0 +1,8 @@
+﻿grudge = {
+	texture = "gfx/interface/icons/portraits/rival_grudge.dds"
+	framesize = { 40 40 }
+	frame = 1
+	
+	alias = { grudges grudge_possessive grudges_possessive }
+	parent = relation
+}

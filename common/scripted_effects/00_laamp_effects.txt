@@ -1337,7 +1337,7 @@ laamp_contract_grab_suitable_rival_for_disposal_effect = {
 				valid_laamp_contract_foe_trigger = yes
 				# Make sure that we don't have barons putting out hits on emperors.
 				highest_held_title_tier <= {
-					value = scope:employer.highest_held_title_tier
+					value = scope:employer_ref.highest_held_title_tier #Unop: Was using scope:employer that is not defined here
 					add = 2
 				}
 			}

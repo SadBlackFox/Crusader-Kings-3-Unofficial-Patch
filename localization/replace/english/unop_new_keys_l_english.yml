@@ -4,11 +4,6 @@
  break_up_with_soulmate_interaction_desc:0 "End your [soulmate|E] [relation|E] with [recipient.GetShortUINameNoTooltip]"
  break_up_with_soulmate_interaction_notification:0 "Broke Up With Soulmate"
 
- TOP_LIEGE_EQUAL_FIRST:1 "You are a Top Liege of [TARGET_CHARACTER.GetShortUIName]"
- NOT_TOP_LIEGE_EQUAL_FIRST:1 "You are #bold not#! a Top Liege of [TARGET_CHARACTER.GetShortUIName]"
- TOP_LIEGE_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] is [TARGET_CHARACTER.GetShortUINamePossessive] Top Liege"
- NOT_TOP_LIEGE_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] is #bold not#! [TARGET_CHARACTER.GetShortUINamePossessive] Top Liege"
-
  birth.3012.t:0 "$birth.3001.t$" #Fixpack: As there is not difference in english for this case, re-use the existing key (but we still need a proper key for the other languages)
 
  plains_development_growth:0 "$plains_development_growth_factor$"
@@ -16,10 +11,6 @@
  tax_avoidance_crime:0 "Refused to pay taxes"
 
  judaism_religion_opinion:0 "$judaism_religion_adherent$ Opinion"
-
- THEY_STRESS_IMPACT_GAINED_CRITICAL:0 "[CHARACTER.GetShortUIName|U] gained [stress_critical_i]$VALUE|V0$ [stress|E] (critical) $TRAITS$"
- I_STRESS_IMPACT_GAINED_CRITICAL:1 "You gained [stress_critical_i]$VALUE|-0$ [stress|E] (critical) $TRAITS$"
- STRESS_IMPACT_GAINED_CRITICAL:0 "Gained [stress_critical_i]$VALUE|V0$ [stress|E] (critical) $TRAITS$"
 
  # For the fp2_santiago_bells_template
  involved_in_iberian_struggle:0 "You are involved in the $iberian_struggle$"
@@ -49,11 +40,6 @@
 
  feature_animal_skull_type_fox:1 "$feature_animal_hide_type_fox$"
  feature_animal_skull_type_hare:1 "$feature_animal_hide_type_hare$"
-
- demand_artifact_interaction_extra_icon:0 "$hook_extra_icon$"
- demand_dynasty_banner_interaction_extra_icon:0 "$hook_extra_icon$"
- diarch_swing_scales_currency_interaction_extra_icon:0 "$hook_extra_icon$"
- gift_artifact_interaction_extra_icon:0 "$hook_extra_icon$"
  
  death_trampled_by_horse:0 "was trampled to death by horses"
 
@@ -97,14 +83,6 @@
  learn_commander_trait.17.t:0 "$trait_cautious_leader$"
  learn_commander_trait.18.t:0 "$trait_organizer$"
 
- #Unop "Resurected keys" (Jizya for feudals contract) 
- jizya_special_rights:0 "Jizya Status"
- jizya_special_rights_default:0 "Default $jizya_special_rights$"
- jizya_special_rights_default_short:0 "Default"
- jizya_special_rights_granted:0 "Enforced $jizya_special_rights$"
- jizya_special_rights_granted_desc:0 "#emphasis #bold [vassal|E] Privileges:#!#!\nThe [liege|E] cannot [demand_conversion|E] of the [vassal|E]\nThe [liege|E] cannot use [convert_county|E] in the [vassals|E]' lands\nThe [liege|E] cannot use [faith|E] as a reason to avoid [tyranny|E] when revoking titles\nThe [liege|E] cannot revoke the [vassals_possessive|E] [titles|E]\n\n#flavor The [vassal|E] is guaranteed ownership of their [titles], preventing the [liege|E] from revoking them – regardless of the $game_concept_liege$ having a [revoke_title_reason|E] or not.\nThe $game_concept_vassal$ is also granted a special protected status, with the realm officially recognizing their right to practice their own [faith|E].#!"
- jizya_special_rights_granted_short:0 "Granted"
-
  #Unop: Missing text for modifier
  parent_managing_county_modifier:0 "Parent Handling County"
  parent_managing_county_modifier_desc:0 "This character has a parent who keeps a close eye on this county."
@@ -131,6 +109,8 @@
  can_hunt_bison:0 "Can hunt bisons"
  can_hunt_aurochs:0 "Can hunt aurochs"
 
+ court.3031.c.tt:0 "Every [reference_county.GetCountyData.GetCulture.GetName] [realm|E] [counties|E] ([THIS.ScriptValue('unop_court3031_number_of_counties_of_culture')|V0])"
+
 # 1.13 new issues
  raid_insight_courtyard:0 "Courtyard Insights"
  raid_insight_courtyard_desc:0 "$raid_insight_shared$\nCourtyard [estate_building|E] Cost: #P -25%#!"
@@ -140,10 +120,28 @@
  court_position_disloyal_trait:0 "[GetTrait('disloyal').GetName( ROOT.Char )]"
  FACTION_REASON_ADMIN_BORN_IN_PURPLE:0 "[claimant|E] was [GetTrait('born_in_the_purple').GetName( GetNullCharacter )]: $VALUE|+0=$"
 
- #1.13 exists with issue
- # Missing 'in'
- public_execution_tooltip:0 "Because you hold a public execution in your [capital|E]:"
-
  plains_travel_danger: "[GetTerrain( 'plains' ).GetName][travel_danger|E]"
  farmlands_travel_danger: "[GetTerrain( 'farmlands' ).GetName][travel_danger|E]"
  oasis_travel_danger: "[GetTerrain( 'oasis' ).GetName][travel_danger|E]"
+ leg_demand_fealty_cb: "$DEMAND_FEALTY_CB_NAME$"
+
+ scheme_agent_aptitude.trait.lifestyle_hunter:0 "[GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]"
+ scheme_agent_aptitude.trait.lifestyle_traveler:0 "[GetTrait('lifestyle_traveler').GetName( GetNullCharacter )]"
+ scheme_agent_aptitude.trait.lifestyle_mystic:0 "[GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]"
+ scheme_agent_aptitude.trait.lifestyle_herbalist:0 "[GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )]"
+ scheme_agent_aptitude.trait.lifestyle_physician:0 "[GetTrait('lifestyle_physician').GetName( GetNullCharacter )]"
+ EVENT_WINDOW_OPTION_AVAILABLE_SKILLED_AGENT:0 "This option is available because you have an [agent|E] with certain [skills|E]"
+ EVENT_WINDOW_OPTION_AVAILABLE_HAVE_JESTER:0 "This option is available because you have a [GetCourtPositionType('court_jester_court_position').GetName()] [court_position|E]"
+ EVENT_WINDOW_OPTION_AVAILABLE_HAVE_SENESCHAL:0 "This option is available because you have a [GetCourtPositionType('seneschal_court_position').GetName()] [court_position|E]"
+ 
+ hunt.1337.e:0 "Good thing I've already paid for the rights!"
+ TARGET_FAMILY_IS_DOMINANT: "Target [house|E] is a [dominant_family|E]: $VALUE|=+0$"
+
+ unop.7004:0 "Name is changed to $c_new_england$"
+
+ # Charioteer
+ charioteer_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'charioteer_court_position' ) )]"
+ charioteer_old_holder_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'charioteer_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'charioteer_court_position' ) )])#!"
+ charioteer_salary_tooltip: "[GetCourtPositionType( 'charioteer_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"
+ unop_unlock_charioteer_training_task:0 "You need the [GetDomicileBuilding('stable_chariot_04').GetName] in your [estate|E]"
+

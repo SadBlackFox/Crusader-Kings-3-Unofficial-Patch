@@ -16362,6 +16362,21 @@ ep3_laamp_decision_event.1053 = {
 				save_scope_as = bg_override_char
 			}
 		}
+
+		if = { # The first time you go to the garrison, the desc is telling that they are brawling
+			limit = {
+				NOT = { exists = scope:been_to_garrison }
+			}			
+			#Unop: In the fight club you fight shirtless
+			scope:laamp_plain_guard = {
+				add_character_flag = single_combat_stripped_to_waist
+				add_character_flag = no_hat
+			}
+			scope:laamp_talented_guard = {
+				add_character_flag = single_combat_stripped_to_waist
+				add_character_flag = no_hat
+			}
+		}
 	}
 	#Hey, FirstPerson, want to join us?
 	option = {
@@ -16481,6 +16496,27 @@ ep3_laamp_decision_event.1053 = {
 	after = {
 		#What was our last location
 		1000_update_last_location_effect = { LOCATION_FLAG = flag:garrison }
+
+		scope:laamp_plain_guard ?= {
+			if = { 
+				limit = { has_character_flag = single_combat_stripped_to_waist }
+				remove_character_flag = single_combat_stripped_to_waist
+			}
+			if = {
+				limit = { has_character_flag = no_hat }
+				remove_character_flag = no_hat
+			}
+		}
+		scope:laamp_talented_guard ?= {
+			if = { 
+				limit = { has_character_flag = single_combat_stripped_to_waist }
+				remove_character_flag = single_combat_stripped_to_waist
+			}
+			if = {
+				limit = { has_character_flag = no_hat }
+				remove_character_flag = no_hat
+			}
+		}
 	}
 }
 
