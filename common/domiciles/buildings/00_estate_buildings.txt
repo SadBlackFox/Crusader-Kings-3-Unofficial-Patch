@@ -355,7 +355,8 @@ living_quarters_01 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -393,7 +394,8 @@ living_quarters_02 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -434,7 +436,8 @@ living_quarters_03 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -476,7 +479,8 @@ living_quarters_04 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -509,7 +513,8 @@ trophy_room_01 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -541,7 +546,8 @@ trophy_room_02 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -581,7 +587,8 @@ trophy_room_03 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -622,7 +629,8 @@ trophy_room_04 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -660,7 +668,8 @@ office_01 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -697,7 +706,8 @@ office_02 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -739,7 +749,8 @@ office_03 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -782,7 +793,8 @@ office_04 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -816,7 +828,8 @@ servants_quarters_01 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -851,7 +864,8 @@ servants_quarters_02 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -891,7 +905,8 @@ servants_quarters_03 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -932,7 +947,8 @@ servants_quarters_04 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -965,7 +981,8 @@ library_01 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1000,7 +1017,8 @@ library_02 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1042,7 +1060,8 @@ library_observatory_03 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1082,7 +1101,8 @@ library_observatory_04 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1124,7 +1144,8 @@ library_education_03 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1166,7 +1187,8 @@ library_education_04 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1204,7 +1226,8 @@ bath_01 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1241,7 +1264,8 @@ bath_02 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1282,7 +1306,8 @@ bath_03 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1324,6 +1349,7 @@ bath_04 = {
 	
 	ai_value = {
 		value = 3
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1358,6 +1384,15 @@ guest_room_01 = {
 	
 	ai_value = {
 		value = 8
+		if = {
+			limit = {
+				scope:owner.culture ?= {
+					has_cultural_tradition = tradition_esteemed_hospitality
+				}
+			}
+			add = 2
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1393,6 +1428,15 @@ guest_room_02 = {
 	
 	ai_value = {
 		value = 7
+		if = {
+			limit = {
+				scope:owner.culture ?= {
+					has_cultural_tradition = tradition_esteemed_hospitality
+				}
+			}
+			add = 2
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1432,7 +1476,16 @@ guest_room_03 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 6
+		if = {
+			limit = {
+				scope:owner.culture ?= {
+					has_cultural_tradition = tradition_esteemed_hospitality
+				}
+			}
+			add = 2
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1471,7 +1524,16 @@ guest_room_04 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 5
+		if = {
+			limit = {
+				scope:owner.culture ?= {
+					has_cultural_tradition = tradition_esteemed_hospitality
+				}
+			}
+			add = 2
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1511,7 +1573,16 @@ guest_room_05 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 4
+		if = {
+			limit = {
+				scope:owner.culture ?= {
+					has_cultural_tradition = tradition_esteemed_hospitality
+				}
+			}
+			add = 2
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1550,7 +1621,16 @@ guest_room_06 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 3
+		if = {
+			limit = {
+				scope:owner.culture ?= {
+					has_cultural_tradition = tradition_esteemed_hospitality
+				}
+			}
+			add = 2
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1582,15 +1662,19 @@ wine_cellar_01 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 8
 		if = {
 			limit = {
 				scope:owner.culture ?= {
-					has_cultural_pillar = heritage_byzantine
+					OR = {
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_tradition = tradition_culinary_art
+					}
 				}
 			}
-			add = 5
+			add = 3
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1620,15 +1704,19 @@ wine_cellar_02 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
 		if = {
 			limit = {
 				scope:owner.culture ?= {
-					has_cultural_pillar = heritage_byzantine
+					OR = {
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_tradition = tradition_culinary_art
+					}
 				}
 			}
-			add = 5
+			add = 3
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1658,15 +1746,19 @@ wine_cellar_03 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 4
 		if = {
 			limit = {
 				scope:owner.culture ?= {
-					has_cultural_pillar = heritage_byzantine
+					OR = {
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_tradition = tradition_culinary_art
+					}
 				}
 			}
-			add = 5
+			add = 3
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1703,7 +1795,8 @@ courtyard_01 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1739,7 +1832,8 @@ courtyard_02 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1779,7 +1873,8 @@ courtyard_03 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1819,7 +1914,8 @@ courtyard_04 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1853,7 +1949,7 @@ prison_01 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
 		if = {
 			limit = {
 				scope:owner = {
@@ -1864,8 +1960,9 @@ prison_01 = {
 					}
 				}
 			}
-			add = 6
+			add = 5
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1901,7 +1998,7 @@ prison_02 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
 		if = {
 			limit = {
 				scope:owner = {
@@ -1912,8 +2009,9 @@ prison_02 = {
 					}
 				}
 			}
-			add = 6
+			add = 5
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -1954,7 +2052,7 @@ prison_03 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
 		if = {
 			limit = {
 				scope:owner = {
@@ -1965,8 +2063,9 @@ prison_03 = {
 					}
 				}
 			}
-			add = 6
+			add = 5
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2007,7 +2106,7 @@ prison_04 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
 		if = {
 			limit = {
 				scope:owner = {
@@ -2018,8 +2117,9 @@ prison_04 = {
 					}
 				}
 			}
-			add = 6
+			add = 5
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2061,7 +2161,8 @@ reception_hall_01 = {
 	}
 
 	ai_value = {
-		value = 7
+		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2103,7 +2204,8 @@ reception_hall_02 = {
 	}
 
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2147,6 +2249,7 @@ reception_hall_03 = {
 
 	ai_value = {
 		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2190,6 +2293,7 @@ reception_hall_04 = {
 
 	ai_value = {
 		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2232,7 +2336,8 @@ reception_hall_05 = {
 	}
 
 	ai_value = {
-		value = 5
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2276,7 +2381,8 @@ cabinet_of_curiosities_01 = {
 	}
 
 	ai_value = {
-		value = 7
+		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2329,7 +2435,8 @@ cabinet_of_curiosities_02 = {
 	}
 
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2384,7 +2491,8 @@ cabinet_of_curiosities_03 = {
 	}
 
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2426,6 +2534,7 @@ grand_solar_01 = {
 
 	ai_value = {
 		value = 10
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2466,6 +2575,7 @@ grand_solar_02 = {
 
 	ai_value = {
 		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2508,6 +2618,7 @@ grand_solar_03 = {
 
 	ai_value = {
 		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2554,6 +2665,7 @@ grand_solar_04 = {
 
 	ai_value = {
 		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2590,7 +2702,8 @@ temple_small_01 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 9
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2691,7 +2804,8 @@ temple_small_02 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2796,7 +2910,8 @@ temple_small_03 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -2905,7 +3020,7 @@ temple_crypt_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
 		if = {
 			limit = {
 				scope:owner = {
@@ -2919,6 +3034,7 @@ temple_crypt_04 = {
 			}
 			add = 10
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -3025,7 +3141,7 @@ temple_crypt_05 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
 		if = {
 			limit = {
 				scope:owner = {
@@ -3039,6 +3155,7 @@ temple_crypt_05 = {
 			}
 			add = 10
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -3146,7 +3263,7 @@ temple_crypt_06 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
 		if = {
 			limit = {
 				scope:owner = {
@@ -3160,6 +3277,7 @@ temple_crypt_06 = {
 			}
 			add = 10
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -3269,7 +3387,8 @@ temple_large_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -3377,7 +3496,8 @@ temple_large_05 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -3487,7 +3607,8 @@ temple_large_06 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -3601,6 +3722,7 @@ temple_monastery_04 = {
 	
 	ai_value = {
 		value = 10
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -3711,7 +3833,8 @@ temple_monastery_05 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -3822,7 +3945,8 @@ temple_monastery_06 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -3930,7 +4054,8 @@ barracks_01 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 9
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -3999,7 +4124,8 @@ barracks_02 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4040,7 +4166,7 @@ barracks_03 = {
 	previous_building = barracks_02
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_02 }
+		estate_can_construct_barracks_03_trigger = yes
 	}
 
 	cost = {
@@ -4072,7 +4198,8 @@ barracks_03 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4113,7 +4240,7 @@ barracks_04 = {
 	previous_building = barracks_03
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_03 }
+		estate_can_construct_barracks_04_trigger = yes
 	}
 
 	cost = {
@@ -4145,7 +4272,8 @@ barracks_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4186,7 +4314,7 @@ barracks_05 = {
 	previous_building = barracks_04
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_04 }
+		estate_can_construct_barracks_05_trigger = yes
 	}
 
 	cost = {
@@ -4218,7 +4346,8 @@ barracks_05 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4259,7 +4388,7 @@ barracks_06 = {
 	previous_building = barracks_05
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_05 }
+		estate_can_construct_barracks_06_trigger = yes
 	}
 
 	cost = {
@@ -4291,7 +4420,8 @@ barracks_06 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4355,7 +4485,8 @@ watchtower_01 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 9
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4420,7 +4551,8 @@ watchtower_02 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4489,7 +4621,8 @@ watchtower_03 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4559,7 +4692,8 @@ watchtower_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4629,7 +4763,8 @@ watchtower_05 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4700,7 +4835,8 @@ watchtower_06 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4764,7 +4900,8 @@ guardhouse_01 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 9
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4828,7 +4965,8 @@ guardhouse_02 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4869,7 +5007,7 @@ guardhouse_03 = {
 	previous_building = guardhouse_02
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_02 }
+		estate_can_construct_guardhouse_03_trigger = yes
 	}
 
 	cost = {
@@ -4898,7 +5036,8 @@ guardhouse_03 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -4939,7 +5078,7 @@ guardhouse_04 = {
 	previous_building = guardhouse_03
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_03 }
+		estate_can_construct_guardhouse_04_trigger = yes
 	}
 
 	cost = {
@@ -4968,7 +5107,8 @@ guardhouse_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -5054,7 +5194,7 @@ garden_01 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 9
 		if = {
 			limit = {
 				scope:owner = {
@@ -5072,6 +5212,7 @@ garden_01 = {
 			}
 			add = 10
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -5156,7 +5297,7 @@ garden_02 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
 		if = {
 			limit = {
 				scope:owner = {
@@ -5174,6 +5315,7 @@ garden_02 = {
 			}
 			add = 10
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -5258,7 +5400,7 @@ garden_03 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
 		if = {
 			limit = {
 				scope:owner = {
@@ -5276,6 +5418,7 @@ garden_03 = {
 			}
 			add = 10
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -5318,7 +5461,7 @@ garden_leisure_04 = {
 	previous_building = garden_03
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_03 }
+		estate_can_construct_garden_leisure_04_trigger = yes
 	}
 
 	cost = {
@@ -5368,7 +5511,7 @@ garden_leisure_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
 		if = {
 			limit = {
 				scope:owner = {
@@ -5386,6 +5529,7 @@ garden_leisure_04 = {
 			}
 			add = 10
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -5426,7 +5570,7 @@ garden_leisure_05 = {
 	previous_building = garden_leisure_04
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_04 }
+		estate_can_construct_garden_leisure_05_trigger = yes
 	}
 
 	cost = {
@@ -5476,7 +5620,7 @@ garden_leisure_05 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
 		if = {
 			limit = {
 				scope:owner = {
@@ -5494,6 +5638,7 @@ garden_leisure_05 = {
 			}
 			add = 10
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -5534,7 +5679,7 @@ garden_leisure_06 = {
 	previous_building = garden_leisure_05
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_05 }
+		estate_can_construct_garden_leisure_06_trigger = yes
 	}
 
 	cost = {
@@ -5584,7 +5729,7 @@ garden_leisure_06 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
 		if = {
 			limit = {
 				scope:owner = {
@@ -5602,6 +5747,7 @@ garden_leisure_06 = {
 			}
 			add = 10
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -5644,7 +5790,7 @@ garden_fruit_04 = {
 	previous_building = garden_03
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_03 }
+		estate_can_construct_garden_fruit_04_trigger = yes
 	}
 
 	cost = {
@@ -5662,6 +5808,114 @@ garden_fruit_04 = {
 		domicile_monthly_gold_add = 0.2
 		development_growth = 0.1
 		negate_health_penalty_add = 0.05
+	}
+
+	parameters = {
+		increased_gardener_aptitude_2 = yes
+	}
+
+	on_complete = {
+		if = {
+			limit = {
+				scope:owner = {
+					is_alive = yes
+				}
+				years_from_game_start >= 1
+			}
+			scope:owner = {
+				random = {
+					chance = 75
+					add_character_flag = {
+						flag = domicile_new_built_garden_fruit
+						months = 1
+					}
+					trigger_event = {
+						id = ep3_governor_yearly.3001
+						days = 5
+					}
+				}
+			}
+		}
+	}
+	
+	ai_value = {
+		value = 6
+		if = {
+			limit = {
+				scope:owner = {
+					OR = {
+						culture ?= {
+							OR = {
+								has_cultural_tradition = tradition_gardening
+								has_cultural_tradition = tradition_fp3_irrigation_experts
+								has_cultural_tradition = tradition_sacred_groves
+							}
+						}
+						faith ?= { has_doctrine = tenet_sanctity_of_nature }
+					}
+				}
+			}
+			add = 10
+		}
+		add = estate_building_ai_modifier_value
+	}
+	
+	asset = {
+		trigger = {
+			domicile_location.culture = {
+				OR = {
+					has_graphical_mena_culture_group_trigger = yes
+					has_graphical_iranian_culture_group_trigger = yes
+				}
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_fruit_garden.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_garden_mena.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_garden_mena_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_garden_fruit"
+	}
+	asset = {
+		trigger = {
+			domicile_location.culture = {
+				has_graphical_western_culture_group_trigger = yes
+			}
+		}
+		icon = "gfx/interface/icons/domicile_building/domicile_building_fruit_garden.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_garden_western.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_garden_western_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_garden_fruit"
+	}
+	asset = {
+		icon = "gfx/interface/icons/domicile_building/domicile_building_fruit_garden.dds"
+		texture = "gfx/interface/window_domiciles/estate_building_garden_byzantine.dds"
+		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_garden_byzantine_mask.png"
+		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_garden_fruit"
+	}
+}
+garden_fruit_05 = {
+	construction_time = 730
+	allowed_domicile_types = { estate }
+	previous_building = garden_fruit_04
+
+	can_construct = {
+		estate_can_construct_garden_fruit_05_trigger = yes
+	}
+
+	cost = {
+		gold = {
+			value = estate_external_building_normal_cost_tier_5_value
+			if = {
+				limit = { has_character_modifier = raid_insight_garden }
+				multiply = 0.75
+				desc = raid_insight_garden
+			}
+		}
+	}
+
+	character_modifier = {
+		domicile_monthly_gold_add = 0.2
+		development_growth = 0.1
+		negate_health_penalty_add = 0.1
 	}
 
 	parameters = {
@@ -5711,6 +5965,7 @@ garden_fruit_04 = {
 			}
 			add = 10
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -5745,18 +6000,18 @@ garden_fruit_04 = {
 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_garden_fruit"
 	}
 }
-garden_fruit_05 = {
+garden_fruit_06 = {
 	construction_time = 730
 	allowed_domicile_types = { estate }
-	previous_building = garden_fruit_04
+	previous_building = garden_fruit_05
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_04 }
+		estate_can_construct_garden_fruit_06_trigger = yes
 	}
 
 	cost = {
 		gold = {
-			value = estate_external_building_normal_cost_tier_5_value
+			value = estate_external_building_normal_cost_tier_6_value
 			if = {
 				limit = { has_character_modifier = raid_insight_garden }
 				multiply = 0.75
@@ -5768,7 +6023,7 @@ garden_fruit_05 = {
 	character_modifier = {
 		domicile_monthly_gold_add = 0.2
 		development_growth = 0.1
-		negate_health_penalty_add = 0.1
+		negate_health_penalty_add = 0.15
 	}
 
 	parameters = {
@@ -5818,113 +6073,7 @@ garden_fruit_05 = {
 			}
 			add = 10
 		}
-	}
-	
-	asset = {
-		trigger = {
-			domicile_location.culture = {
-				OR = {
-					has_graphical_mena_culture_group_trigger = yes
-					has_graphical_iranian_culture_group_trigger = yes
-				}
-			}
-		}
-		icon = "gfx/interface/icons/domicile_building/domicile_building_fruit_garden.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_garden_mena.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_garden_mena_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_garden_fruit"
-	}
-	asset = {
-		trigger = {
-			domicile_location.culture = {
-				has_graphical_western_culture_group_trigger = yes
-			}
-		}
-		icon = "gfx/interface/icons/domicile_building/domicile_building_fruit_garden.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_garden_western.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_garden_western_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_garden_fruit"
-	}
-	asset = {
-		icon = "gfx/interface/icons/domicile_building/domicile_building_fruit_garden.dds"
-		texture = "gfx/interface/window_domiciles/estate_building_garden_byzantine.dds"
-		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_garden_byzantine_mask.png"
-		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_garden_fruit"
-	}
-}
-garden_fruit_06 = {
-	construction_time = 730
-	allowed_domicile_types = { estate }
-	previous_building = garden_fruit_05
-
-	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_05 }
-	}
-
-	cost = {
-		gold = {
-			value = estate_external_building_normal_cost_tier_6_value
-			if = {
-				limit = { has_character_modifier = raid_insight_garden }
-				multiply = 0.75
-				desc = raid_insight_garden
-			}
-		}
-	}
-
-	character_modifier = {
-		domicile_monthly_gold_add = 0.2
-		development_growth = 0.1
-		negate_health_penalty_add = 0.15
-	}
-
-	parameters = {
-		increased_gardener_aptitude_2 = yes
-	}
-
-	on_complete = {
-		if = {
-			limit = {
-				scope:owner = {
-					is_alive = yes
-				}
-				years_from_game_start >= 1
-			}
-			scope:owner = {
-				random = {
-					chance = 75
-					add_character_flag = {
-						flag = domicile_new_built_garden_fruit
-						months = 1
-					}
-					trigger_event = {
-						id = ep3_governor_yearly.3001
-						days = 5
-					}
-				}
-			}
-		}
-	}
-	
-	ai_value = {
-		value = 3
-		if = {
-			limit = {
-				scope:owner = {
-					OR = {
-						culture ?= {
-							OR = {
-								has_cultural_tradition = tradition_gardening
-								has_cultural_tradition = tradition_fp3_irrigation_experts
-								has_cultural_tradition = tradition_sacred_groves
-							}
-						}
-						faith ?= { has_doctrine = tenet_sanctity_of_nature }
-					}
-				}
-			}
-			add = 10
-		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -5981,7 +6130,16 @@ stable_01 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 9
+		if = {
+			limit = {
+				scope:owner.culture ?= {
+					has_cultural_tradition = tradition_hunters
+				}
+			}
+			add = 2
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6041,7 +6199,16 @@ stable_02 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
+		if = {
+			limit = {
+				scope:owner.culture ?= {
+					has_cultural_tradition = tradition_hunters
+				}
+			}
+			add = 2
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6101,7 +6268,16 @@ stable_03 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		if = {
+			limit = {
+				scope:owner.culture ?= {
+					has_cultural_tradition = tradition_hunters
+				}
+			}
+			add = 2
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6169,7 +6345,8 @@ stable_grand_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6236,7 +6413,8 @@ stable_grand_05 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6303,7 +6481,8 @@ stable_grand_06 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6372,14 +6551,16 @@ stable_kennel_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
 		if = {
 			limit = {
 				scope:owner.culture ?= {
 					has_cultural_tradition = tradition_hunters
 				}
 			}
+			add = 2
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6447,14 +6628,16 @@ stable_kennel_05 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
 		if = {
 			limit = {
 				scope:owner.culture ?= {
 					has_cultural_tradition = tradition_hunters
 				}
 			}
+			add = 2
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6523,14 +6706,16 @@ stable_kennel_06 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
 		if = {
 			limit = {
 				scope:owner.culture ?= {
 					has_cultural_tradition = tradition_hunters
 				}
 			}
+			add = 2
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6598,6 +6783,7 @@ stable_chariot_04 = {
 	
 	ai_value = {
 		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6663,7 +6849,8 @@ stable_chariot_05 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6729,7 +6916,8 @@ stable_chariot_06 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6787,7 +6975,8 @@ workshop_01 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 9
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6844,7 +7033,8 @@ workshop_02 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6887,7 +7077,7 @@ workshop_carpenter_03 = {
 	previous_building = workshop_02
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_02 }
+		estate_can_construct_workshop_carpenter_03_trigger = yes
 	}
 
 	cost = {
@@ -6911,7 +7101,8 @@ workshop_carpenter_03 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -6952,7 +7143,7 @@ workshop_carpenter_04 = {
 	previous_building = workshop_carpenter_03
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_03 }
+		estate_can_construct_workshop_carpenter_04_trigger = yes
 	}
 
 	cost = {
@@ -6976,7 +7167,8 @@ workshop_carpenter_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7017,7 +7209,7 @@ workshop_carpenter_05 = {
 	previous_building = workshop_carpenter_04
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_04 }
+		estate_can_construct_workshop_carpenter_05_trigger = yes
 	}
 
 	cost = {
@@ -7042,7 +7234,8 @@ workshop_carpenter_05 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7083,7 +7276,7 @@ workshop_carpenter_06 = {
 	previous_building = workshop_carpenter_05
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_05 }
+		estate_can_construct_workshop_carpenter_06_trigger = yes
 	}
 
 	cost = {
@@ -7108,7 +7301,8 @@ workshop_carpenter_06 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7151,7 +7345,7 @@ workshop_mason_03 = {
 	previous_building = workshop_02
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_02 }
+		estate_can_construct_workshop_mason_03_trigger = yes
 	}
 
 	cost = {
@@ -7173,7 +7367,8 @@ workshop_mason_03 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7214,7 +7409,7 @@ workshop_mason_04 = {
 	previous_building = workshop_mason_03
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_03 }
+		estate_can_construct_workshop_mason_04_trigger = yes
 	}
 
 	cost = {
@@ -7236,7 +7431,8 @@ workshop_mason_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7277,7 +7473,7 @@ workshop_mason_05 = {
 	previous_building = workshop_mason_04
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_04 }
+		estate_can_construct_workshop_mason_05_trigger = yes
 	}
 
 	cost = {
@@ -7301,7 +7497,8 @@ workshop_mason_05 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7342,7 +7539,7 @@ workshop_mason_06 = {
 	previous_building = workshop_mason_05
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_05 }
+		estate_can_construct_workshop_mason_06_trigger = yes
 	}
 
 	cost = {
@@ -7366,7 +7563,8 @@ workshop_mason_06 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7409,7 +7607,7 @@ workshop_textile_03 = {
 	previous_building = workshop_02
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_02 }
+		estate_can_construct_workshop_textile_03_trigger = yes
 	}
 
 	cost = {
@@ -7433,7 +7631,8 @@ workshop_textile_03 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7474,7 +7673,7 @@ workshop_textile_04 = {
 	previous_building = workshop_textile_03
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_03 }
+		estate_can_construct_workshop_textile_04_trigger = yes
 	}
 
 	cost = {
@@ -7498,7 +7697,8 @@ workshop_textile_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7539,7 +7739,7 @@ workshop_textile_05 = {
 	previous_building = workshop_textile_04
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_04 }
+		estate_can_construct_workshop_textile_05_trigger = yes
 	}
 
 	cost = {
@@ -7563,7 +7763,8 @@ workshop_textile_05 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7604,7 +7805,7 @@ workshop_textile_06 = {
 	previous_building = workshop_textile_05
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_05 }
+		estate_can_construct_workshop_textile_06_trigger = yes
 	}
 
 	cost = {
@@ -7628,7 +7829,8 @@ workshop_textile_06 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7689,7 +7891,14 @@ storage_01 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 9
+		if = {
+			limit = {
+				has_domicile_building_or_higher = grain_field_01
+			}
+			add = 2
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7749,7 +7958,14 @@ storage_02 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
+		if = {
+			limit = {
+				has_domicile_building_or_higher = grain_field_01
+			}
+			add = 2
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7816,7 +8032,8 @@ storage_warehouse_03 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7881,7 +8098,8 @@ storage_warehouse_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -7945,13 +8163,14 @@ storage_granary_03 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
 		if = {
 			limit = {
 				has_domicile_building_or_higher = grain_field_01
 			}
 			add = 2
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -8017,13 +8236,14 @@ storage_granary_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
 		if = {
 			limit = {
 				has_domicile_building_or_higher = grain_field_01
 			}
 			add = 2
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -8084,7 +8304,7 @@ market_01 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 9
 		if = { # Let's make sure the AI builds at least one good income building
 			limit = {
 				NOR = {
@@ -8095,6 +8315,7 @@ market_01 = {
 			}
 			add = 20
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -8155,7 +8376,8 @@ market_02 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -8196,7 +8418,7 @@ market_03 = {
 	previous_building = market_02
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_02 }
+		estate_can_construct_market_03_trigger = yes
 	}
 
 	cost = {
@@ -8221,7 +8443,8 @@ market_03 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -8262,7 +8485,7 @@ market_04 = {
 	previous_building = market_03
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_03 }
+		estate_can_construct_market_04_trigger = yes
 	}
 
 	cost = {
@@ -8287,7 +8510,8 @@ market_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -8328,7 +8552,7 @@ market_05 = {
 	previous_building = market_04
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_04 }
+		estate_can_construct_market_05_trigger = yes
 	}
 
 	cost = {
@@ -8353,7 +8577,8 @@ market_05 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -8394,7 +8619,7 @@ market_06 = {
 	previous_building = market_05
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_05 }
+		estate_can_construct_market_06_trigger = yes
 	}
 
 	cost = {
@@ -8419,7 +8644,8 @@ market_06 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -8506,7 +8732,24 @@ grazing_land_01 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 9
+		if = {
+			limit = {
+				scope:owner = {
+					OR = {
+						can_recruit_archer_cavalry_trigger = yes
+						culture ?= {
+							OR = {
+								has_innovation = innovation_elephantry
+								has_innovation = innovation_war_camels
+							}
+						}
+					}
+				}
+			}
+			add = 4
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -8592,7 +8835,24 @@ grazing_land_02 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
+		if = {
+			limit = {
+				scope:owner = {
+					OR = {
+						can_recruit_archer_cavalry_trigger = yes
+						culture ?= {
+							OR = {
+								has_innovation = innovation_elephantry
+								has_innovation = innovation_war_camels
+							}
+						}
+					}
+				}
+			}
+			add = 4
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -8678,7 +8938,24 @@ grazing_land_03 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 7
+		if = {
+			limit = {
+				scope:owner = {
+					OR = {
+						can_recruit_archer_cavalry_trigger = yes
+						culture ?= {
+							OR = {
+								has_innovation = innovation_elephantry
+								has_innovation = innovation_war_camels
+							}
+						}
+					}
+				}
+			}
+			add = 4
+		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -8771,7 +9048,8 @@ grazing_land_04 = {
 	}
 	
 	ai_value = {
-		value = 5
+		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -8864,7 +9142,8 @@ grazing_land_05 = {
 	}
 	
 	ai_value = {
-		value = 4
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -8957,7 +9236,8 @@ grazing_land_06 = {
 	}
 	
 	ai_value = {
-		value = 3
+		value = 4
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -9047,6 +9327,7 @@ horse_pasture_04 = {
 	
 	ai_value = {
 		value = 10
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -9134,6 +9415,7 @@ horse_pasture_05 = {
 	
 	ai_value = {
 		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -9221,6 +9503,7 @@ horse_pasture_06 = {
 	
 	ai_value = {
 		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -9310,6 +9593,7 @@ camel_pasture_04 = {
 	
 	ai_value = {
 		value = 10
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -9397,6 +9681,7 @@ camel_pasture_05 = {
 	
 	ai_value = {
 		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -9484,6 +9769,7 @@ camel_pasture_06 = {
 	
 	ai_value = {
 		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -9549,6 +9835,7 @@ elephant_pasture_04 = {
 	
 	ai_value = {
 		value = 12
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -9612,6 +9899,7 @@ elephant_pasture_05 = {
 	
 	ai_value = {
 		value = 10
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -9675,6 +9963,7 @@ elephant_pasture_06 = {
 	
 	ai_value = {
 		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -9780,7 +10069,7 @@ grain_field_01 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 10
 		if = { # Let's make sure the AI builds at least one good income building
 			limit = {
 				NOR = {
@@ -9791,6 +10080,7 @@ grain_field_01 = {
 			}
 			add = 20
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -9894,7 +10184,8 @@ grain_field_02 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 9
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -10003,7 +10294,8 @@ grain_field_03 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -10113,6 +10405,7 @@ grain_field_04 = {
 	
 	ai_value = {
 		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -10222,6 +10515,7 @@ grain_field_05 = {
 	
 	ai_value = {
 		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -10330,7 +10624,8 @@ grain_field_06 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -10415,7 +10710,7 @@ vineyard_01 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 10
 		if = { # Let's make sure the AI builds at least one good income building
 			limit = {
 				NOR = {
@@ -10426,6 +10721,7 @@ vineyard_01 = {
 			}
 			add = 20
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -10509,7 +10805,8 @@ vineyard_02 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 9
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -10550,7 +10847,7 @@ vineyard_03 = {
 	previous_building = vineyard_02
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_02 }
+		estate_can_construct_vineyard_03_trigger = yes
 	}
 
 	cost = {
@@ -10596,7 +10893,8 @@ vineyard_03 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -10637,7 +10935,7 @@ vineyard_04 = {
 	previous_building = vineyard_03
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_03 }
+		estate_can_construct_vineyard_04_trigger = yes
 	}
 
 	cost = {
@@ -10684,6 +10982,7 @@ vineyard_04 = {
 	
 	ai_value = {
 		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -10724,7 +11023,7 @@ vineyard_05 = {
 	previous_building = vineyard_04
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_04 }
+		estate_can_construct_vineyard_05_trigger = yes
 	}
 
 	cost = {
@@ -10771,6 +11070,7 @@ vineyard_05 = {
 	
 	ai_value = {
 		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -10811,7 +11111,7 @@ vineyard_06 = {
 	previous_building = vineyard_05
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_05 }
+		estate_can_construct_vineyard_06_trigger = yes
 	}
 
 	cost = {
@@ -10857,7 +11157,8 @@ vineyard_06 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -10939,7 +11240,7 @@ olive_01 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 10
 		if = { # Let's make sure the AI builds at least one good income building
 			limit = {
 				NOR = {
@@ -10950,6 +11251,7 @@ olive_01 = {
 			}
 			add = 20
 		}
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -11030,7 +11332,8 @@ olive_02 = {
 	}
 	
 	ai_value = {
-		value = 8
+		value = 9
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -11071,7 +11374,7 @@ olive_03 = {
 	previous_building = olive_02
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_02 }
+		estate_can_construct_olive_03_trigger = yes
 	}
 
 	cost = {
@@ -11115,7 +11418,8 @@ olive_03 = {
 	}
 	
 	ai_value = {
-		value = 7
+		value = 8
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -11156,7 +11460,7 @@ olive_04 = {
 	previous_building = olive_03
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_03 }
+		estate_can_construct_olive_04_trigger = yes
 	}
 
 	cost = {
@@ -11201,6 +11505,7 @@ olive_04 = {
 	
 	ai_value = {
 		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -11241,7 +11546,7 @@ olive_05 = {
 	previous_building = olive_04
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_04 }
+		estate_can_construct_olive_05_trigger = yes
 	}
 
 	cost = {
@@ -11287,6 +11592,7 @@ olive_05 = {
 	
 	ai_value = {
 		value = 6
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -11327,7 +11633,7 @@ olive_06 = {
 	previous_building = olive_05
 
 	can_construct = {
-		domicile ?= { has_domicile_building_or_higher = estate_main_05 }
+		estate_can_construct_olive_06_trigger = yes
 	}
 
 	cost = {
@@ -11372,7 +11678,8 @@ olive_06 = {
 	}
 	
 	ai_value = {
-		value = 6
+		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -11463,6 +11770,7 @@ silk_01 = {
 	
 	ai_value = {
 		value = 15
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -11529,6 +11837,7 @@ silk_02 = {
 	
 	ai_value = {
 		value = 13
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -11596,6 +11905,7 @@ silk_03 = {
 	
 	ai_value = {
 		value = 11
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -11664,6 +11974,7 @@ silk_04 = {
 	
 	ai_value = {
 		value = 9
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -11732,6 +12043,7 @@ silk_05 = {
 	
 	ai_value = {
 		value = 7
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {
@@ -11800,6 +12112,7 @@ silk_06 = {
 	
 	ai_value = {
 		value = 5
+		add = estate_building_ai_modifier_value
 	}
 	
 	asset = {

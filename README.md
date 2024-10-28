@@ -41,6 +41,11 @@ common
                 > Fix incorrect file reference for the byzantine mask
                 > Fix market_06 intersectionmask_texture path
 
+    genes
+        05_genes_special_accessories_clothes.txt
+            > Add missing female_clothes_religious_buddhist_devoted_01
+            > Fix female_clothes_religious_buddhist_devoted_01 being referenced as female_clothes_religious_hindu_devoted_01 
+
     important_actions
         00_personal_actions.txt
             > Add an action to display the correct amount of gold you can ransom someone if you have Practiced Kidnappers
@@ -61,6 +66,10 @@ common
             > Add some missing exclusive court/officer position inside court_position_does_not_already_have_a_job_trigger
         20_health_triggers.txt
             > Fix has_high_health_penalty_disease_type_trigger & has_low_health_penalty_disease_type_trigger for elderly/child characters who have consumption or measles 
+
+    script_values
+        10_health_values.txt
+            > Fix the variable value for under/overweight for script using it
 
 events
     dlc
@@ -99,6 +108,18 @@ events
 
 gfx
     map\map_object_data: New files for the map_data modifications
+
+    portraits
+        portrait_modifiers
+            00_custom_clothes.txt
+                > Add Western & Mena clothes.
+                > Fix template western_royalty_clothes name (was: western_royal_clothes)
+                > Fix religious_jain_high_clothes name (was: religious_jain_devoted_clothes)
+            00_custom_headgear.txt
+                > Add Western & Mena hood.
+                > Fix ep3_byzantine_era1_commoner name (was: ep3_byzantine_era1_common)
+                > Comment a duplicated entry for fp4_western_era2_veils
+                > Comment a non existing entry for ep3_byzantine_era2_common
 
 gui
     hud.gui

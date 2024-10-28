@@ -132,7 +132,8 @@
  can_hunt_aurochs:0 "Can hunt aurochs"
 
 # 1.13 new issues
-
+ raid_insight_courtyard:0 "Courtyard Insights"
+ raid_insight_courtyard_desc:0 "$raid_insight_shared$\nCourtyard [estate_building|E] Cost: #P -25%#!"
  raid_insight_market:0 "Market Insights"
  raid_insight_market_desc:0 "$raid_insight_shared$\nMarket [estate_building|E] Cost: #P -25%#!"
  court_position_unyielding_defender_trait:0 "[GetTrait('unyielding_defender').GetName( ROOT.Char )]"
@@ -142,3 +143,7 @@
  #1.13 exists with issue
  # Missing 'in'
  public_execution_tooltip:0 "Because you hold a public execution in your [capital|E]:"
+
+ plains_travel_danger: "[GetTerrain( 'plains' ).GetName][travel_danger|E]"
+ farmlands_travel_danger: "[GetTerrain( 'farmlands' ).GetName][travel_danger|E]"
+ oasis_travel_danger: "[GetTerrain( 'oasis' ).GetName][travel_danger|E]"
