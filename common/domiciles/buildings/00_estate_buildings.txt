@@ -8433,7 +8433,7 @@ market_06 = {
 		}
 		icon = "gfx/interface/icons/domicile_building/domicile_building_market.dds"
 		texture = "gfx/interface/window_domiciles/estate_building_market_mena.dds"
-		intersectionmask_texture = "gfx/interface/illustrations/activity_locales/estate_building_market_mena_mask.png"
+		intersectionmask_texture = "gfx/interface/window_domiciles/estate_building_market_mena_mask.png"
 		soundeffect = "event:/DLC/EP3/SFX/UI/domicile_buildings/ep3_ui_domicile_buildings_market"
 	}
 	asset = {

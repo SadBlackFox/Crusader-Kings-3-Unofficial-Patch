@@ -130,3 +130,15 @@
  can_hunt_deer_antelope:0 "Can hunt deer or antelope"
  can_hunt_bison:0 "Can hunt bisons"
  can_hunt_aurochs:0 "Can hunt aurochs"
+
+# 1.13 new issues
+
+ raid_insight_market:0 "Market Insights"
+ raid_insight_market_desc:0 "$raid_insight_shared$\nMarket [estate_building|E] Cost: #P -25%#!"
+ court_position_unyielding_defender_trait:0 "[GetTrait('unyielding_defender').GetName( ROOT.Char )]"
+ court_position_disloyal_trait:0 "[GetTrait('disloyal').GetName( ROOT.Char )]"
+ FACTION_REASON_ADMIN_BORN_IN_PURPLE:0 "[claimant|E] was [GetTrait('born_in_the_purple').GetName( GetNullCharacter )]: $VALUE|+0=$"
+
+ #1.13 exists with issue
+ # Missing 'in'
+ public_execution_tooltip:0 "Because you hold a public execution in your [capital|E]:"
