@@ -839,7 +839,11 @@ char_interaction.0160 = {
 		}
 	}
 
-	option = {
+	option = { #Unop: Reverse the order of name & added the trigger since in base game (as of 1.13.2) the "lowest" name will be taken if untriggered even if there is one before that validate the trigger
+		name = {
+			trigger = { always = yes }
+			text = char_interaction.0160.a
+		}
 		name = {
 			trigger = {
 				scope:recipient = {
@@ -852,9 +856,6 @@ char_interaction.0160 = {
 				}
 			}
 			text = char_interaction.0160.a.courtier
-		}
-		name = {
-			text = char_interaction.0160.a
 		}
 	}
 }

@@ -5793,6 +5793,24 @@ scripted_trigger root_faith_compare_doctrine_trigger = {
 	}
 }
 
+#Unop: So we can check for witchcraft properly since the introduction of witchcraft being virtuous
+scripted_trigger root_faith_compare_doctrine_parameter_trigger = {
+	OR = {
+		AND = {
+			faith = { has_doctrine_parameter = $DOCTRINE_PARAMETER$ }
+			NOT = {
+				ROOT.faith = { has_doctrine_parameter = $DOCTRINE_PARAMETER$ }
+			}
+		}
+		AND = {
+			ROOT.faith = { has_doctrine_parameter = $DOCTRINE_PARAMETER$ }
+			NOT = {
+				faith = { has_doctrine_parameter = $DOCTRINE_PARAMETER$ }
+			}
+		}
+	}
+}
+
 scripted_trigger court_8120_zealous_vassal_trigger = {
 	faith = ROOT.faith
 	has_trait = zealous
@@ -5881,7 +5899,7 @@ scripted_trigger court_8120_debater_trigger = {
 		root_faith_compare_doctrine_trigger = { DOCTRINE = doctrine_divorce_disallowed } # Divorce 
 		root_faith_compare_doctrine_trigger = { DOCTRINE = doctrine_adultery_women_accepted } # Adultery Female
 		root_faith_compare_doctrine_trigger = { DOCTRINE = doctrine_adultery_men_accepted } # Adultery Male
-		root_faith_compare_doctrine_trigger = { DOCTRINE = doctrine_witchcraft_accepted } # Witchcraft 
+		root_faith_compare_doctrine_parameter_trigger = { DOCTRINE_PARAMETER = witchcraft_accepted } # Witchcraft #Unop: Need to check the parameter since this was made before the creation of witchcraft virtuous
 		root_faith_compare_doctrine_trigger = { DOCTRINE = doctrine_gender_equal } # Equality 
 		root_faith_compare_doctrine_trigger = { DOCTRINE = doctrine_consanguinity_unrestricted } # Cosanguity
 	}
@@ -6263,7 +6281,7 @@ court_yearly.8120 = {
         create_artifact = {	
 			name = my_holy_book
 			description = my_holy_book_description
-			type = miscellaneous
+			type = journal
 			visuals = book
 			modifier = artifact_monthly_piety_2_modifier
 		}

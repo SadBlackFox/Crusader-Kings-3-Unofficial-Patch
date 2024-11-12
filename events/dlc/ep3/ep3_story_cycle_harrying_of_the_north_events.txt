@@ -2762,6 +2762,7 @@ ep3_story_cycle_harrying.3010 = {
 		has_ep3_dlc_trigger = yes
 		is_available = yes
 		is_healthy = yes
+		has_global_variable = harrying_of_the_north #Unop: Prevent this to log errors since the harrying_of_the_north can have ended.
 		global_var:harrying_of_the_north.story_owner = {
 			save_temporary_scope_as = william_temp
 			any_vassal_or_below = {

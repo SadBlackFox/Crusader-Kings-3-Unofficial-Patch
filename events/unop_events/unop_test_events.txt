@@ -7,8 +7,14 @@ unop_tests.0001 = {
 	title = insult_poetry.0001.t
 	theme = skull
 	desc = insult_poetry.0001.t
-	left_portrait = scope:ugly_male
-	right_portrait = scope:beauty_female
+	left_portrait = {
+		character = scope:ugly_male
+		outfit_tags = { no_clothes }
+	}
+	right_portrait = {
+		character = scope:beauty_female
+		outfit_tags = { no_clothes }
+	}
 	override_background = { reference = temple }
 
 	immediate = {

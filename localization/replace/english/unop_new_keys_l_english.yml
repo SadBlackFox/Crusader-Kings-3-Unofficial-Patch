@@ -134,7 +134,7 @@
  EVENT_WINDOW_OPTION_AVAILABLE_HAVE_JESTER:0 "This option is available because you have a [GetCourtPositionType('court_jester_court_position').GetName()] [court_position|E]"
  EVENT_WINDOW_OPTION_AVAILABLE_HAVE_SENESCHAL:0 "This option is available because you have a [GetCourtPositionType('seneschal_court_position').GetName()] [court_position|E]"
  
- hunt.1337.e:0 "Good thing I've already paid for the rights!"
+
  TARGET_FAMILY_IS_DOMINANT: "Target [house|E] is a [dominant_family|E]: $VALUE|=+0$"
 
  unop.7004:0 "Name is changed to $c_new_england$"
@@ -145,3 +145,5 @@
  charioteer_salary_tooltip: "[GetCourtPositionType( 'charioteer_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"
  unop_unlock_charioteer_training_task:0 "You need the [GetDomicileBuilding('stable_chariot_04').GetName] in your [estate|E]"
 
+ TOP_LIEGE_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] is [TARGET_CHARACTER.GetShortUINamePossessive] [top_liege|E]"
+ TOP_LIEGE_EQUAL_THIRD_NOT:0 "[CHARACTER.GetShortUIName|U] is #bold not#! [TARGET_CHARACTER.GetShortUINamePossessive] [top_liege|E]"

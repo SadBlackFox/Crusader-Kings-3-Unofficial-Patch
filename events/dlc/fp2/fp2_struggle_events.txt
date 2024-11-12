@@ -11234,9 +11234,7 @@ fp2_struggle.3001 = {
 	option = { #sell artifact crown instead
 		name = fp2_struggle.3001.b
 		trigger = { #triggers if you actually have one
-			any_character_artifact = {
-				artifact_slot_type = helmet
-			}
+			exists = scope:struggle_3001_crown_artifact #Unop: Check for scope existence instead since the trigger used was different than in the immediate and caused issue
 		}
 		add_gold = medium_gold_value
 		add_prestige = minor_prestige_loss

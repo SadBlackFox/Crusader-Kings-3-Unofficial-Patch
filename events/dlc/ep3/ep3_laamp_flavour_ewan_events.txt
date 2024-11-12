@@ -14704,6 +14704,11 @@ ep3_laamp_flavour_ewan.3051 = {
 		character = root
 		animation = writing
 	}
+	artifact = {
+		target = scope:newly_created_map
+		position = lower_center_portrait
+		trigger = { exists = scope:newly_created_map }
+	}
 
 	trigger = {
 		# DLC check.
@@ -19868,7 +19873,10 @@ ep3_laamp_flavour_ewan.4062 = {
 								multiply = 0.5
 							}
 							every_courtier = {
-								limit = { location = root.location }
+								limit = { 
+									location = root.location
+									NOT = { this = scope:huntsperson } #Unop: So the courtier won't gan self-opinion
+								}
 								custom = custom.every_follower
 								add_opinion = {
 									target = scope:huntsperson

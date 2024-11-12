@@ -103,6 +103,7 @@ chariot_race.3000 = {
 		}
 		if = {
 			limit = {
+				has_variable = wager_target #Unop: This is needed due to the variable that can be cleared in chariot_race_ongoing_jp.0600 event
 				scope:charioteer_sacrifice = {
 					this = root.var:wager_target
 					is_courtier_of = root
@@ -165,6 +166,7 @@ chariot_race.3000 = {
 		#It's nice to win!
 		if = {
 			limit = {
+				has_variable = wager_target #Unop: This is needed due to the variable that can be cleared in chariot_race_ongoing_jp.0600 event
 				var:wager_target = {
 					this = scope:charioteer_leading
 				}
@@ -222,6 +224,7 @@ chariot_race.3000 = {
 			base = 100
 			modifier = {
 				add = 50
+				has_variable = wager_target #Unop: This is needed due to the variable that can be cleared in chariot_race_ongoing_jp.0600 event
 				NOT = {
 					var:wager_target = {
 						this = scope:charioteer_sacrifice
@@ -236,6 +239,7 @@ chariot_race.3000 = {
 			}
 			modifier = {
 				factor = 0
+				has_variable = wager_target #Unop: This is needed due to the variable that can be cleared in chariot_race_ongoing_jp.0600 event
 				var:wager_target = {
 					this = scope:charioteer_sacrifice
 				}
@@ -247,6 +251,7 @@ chariot_race.3000 = {
 			}
 			modifier = {
 				add = 50
+				has_variable = wager_target #Unop: This is needed due to the variable that can be cleared in chariot_race_ongoing_jp.0600 event
 				NOT = {
 					var:wager_target = {
 						this = scope:charioteer_sacrifice
@@ -262,6 +267,7 @@ chariot_race.3000 = {
 			}
 			modifier = {
 				factor = 0
+				has_variable = wager_target #Unop: This is needed due to the variable that can be cleared in chariot_race_ongoing_jp.0600 event
 				var:wager_target = {
 					this = scope:charioteer_sacrifice
 				}
@@ -289,6 +295,7 @@ chariot_race.3000 = {
 		#Fellow Blues appreciate your support in this sad time
 		if = {
 			limit = {
+				has_variable = wager_target #Unop: This is needed due to the variable that can be cleared in chariot_race_ongoing_jp.0600 event
 				var:wager_target = {
 					this = scope:charioteer_leading
 				}
@@ -333,6 +340,7 @@ chariot_race.3000 = {
 			base = 100
 			modifier = {
 				add = 50
+				has_variable = wager_target #Unop: This is needed due to the variable that can be cleared in chariot_race_ongoing_jp.0600 event
 				NOT = {
 					var:wager_target = {
 						this = scope:charioteer_sacrifice
@@ -347,6 +355,7 @@ chariot_race.3000 = {
 			}
 			modifier = {
 				factor = 0
+				has_variable = wager_target #Unop: This is needed due to the variable that can be cleared in chariot_race_ongoing_jp.0600 event
 				var:wager_target = {
 					this = scope:charioteer_sacrifice
 				}
@@ -361,6 +370,7 @@ chariot_race.3000 = {
 			}
 			modifier = {
 				add = 50
+				has_variable = wager_target #Unop: This is needed due to the variable that can be cleared in chariot_race_ongoing_jp.0600 event
 				NOT = {
 					var:wager_target = {
 						this = scope:charioteer_sacrifice
@@ -375,6 +385,7 @@ chariot_race.3000 = {
 			}
 			modifier = {
 				factor = 0
+				has_variable = wager_target #Unop: This is needed due to the variable that can be cleared in chariot_race_ongoing_jp.0600 event
 				var:wager_target = {
 					this = scope:charioteer_sacrifice
 				}
@@ -3701,17 +3712,25 @@ chariot_race.4031 = {
 	left_portrait = {
 		character = root
 		animation = personality_irrational
-		outfit_tags = { no_clothes }
 		camera = camera_event_right_pointing_left
 	}
 	center_portrait = {
 		character = scope:besexed
 		animation = reception_bride_right
-		outfit_tags = { no_clothes }
 		camera = camera_event_right
 	}
 
 	immediate = {
+		add_character_flag = {
+			flag = is_naked
+			days = 30
+		}
+		scope:besexed = {
+			add_character_flag = {
+				flag = is_naked
+				days = 30
+			}
+		}
 		show_as_tooltip = {
 			if = {
 				limit = {
@@ -3889,6 +3908,10 @@ chariot_race.4031 = {
 			scope:prostitute = {
 				silent_disappearance_effect = yes
 			}
+		}
+		remove_character_flag = is_naked
+		scope:besexed = {
+			remove_character_flag = is_naked
 		}
 	}
 }

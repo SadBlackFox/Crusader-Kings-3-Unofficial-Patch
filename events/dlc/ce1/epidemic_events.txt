@@ -176,6 +176,7 @@ epidemic_events.0110 = {
 			limit = { # A new capital potential?
 				highest_held_title_tier >= tier_kingdom
 				any_sub_realm_duchy = {
+					exists = title_capital_county #Unop: No landless duchies
 					title_capital_county = {
 						NOT = { exists = var:epidemic_cooldown_general }
 						holder = {
@@ -4372,7 +4373,11 @@ epidemic_events.1120 = {
 		hidden_effect = {
 			if = {
 				limit = {
-					scope:corpse_flingee = { location.county = scope:flung_corpse_location }
+					scope:corpse_flingee = { 
+						exists = location #Unop: Prevent to log error if holder is at sea
+						location = { is_sea_province = no } #Unop: Prevent to log error if holder is at sea
+						location.county = scope:flung_corpse_location 
+					}
 				}
 				scope:corpse_flingee = {
 					trigger_event = epidemic_events.1121

@@ -4420,7 +4420,7 @@ offer_eunuch_interaction = {
 			every_courtier = {
 				limit = {
 					is_eunuch_trigger = yes
-					is_adult = yes #Unop: apparently the AI bypass the can_be_picked so putting it here to prevent errors in the logs
+					is_adult = yes #Unop: To not include child in the list for nothing
 				}
 				add_to_list = characters
 			}

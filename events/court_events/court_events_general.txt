@@ -10851,8 +10851,17 @@ court.8140 = {
     	OR = {
     		exists = cp:councillor_marshal
     		exists = court_position:master_of_hunt_court_position
-    		exists = court_position:master_of_horse_court_position
     		exists = court_position:court_physician_court_position
+			trigger_if = { #Unop: To be consistent with the immediate selection logic
+				limit = {
+    				NOT = {
+    					any_owned_story = {
+							story_type = story_cycle_martial_lifestyle_warhorse
+						}
+					}
+    			}
+    			exists = court_position:master_of_horse_court_position
+			}
     	}
     }
 
@@ -10871,23 +10880,29 @@ court.8140 = {
     immediate = {
     	random_list = {
     		1 = {
+				trigger = { exists = cp:councillor_court_chaplain }
     			cp:councillor_court_chaplain ?= { save_scope_as = vassal_1 } #prayer
     		}
     		1 = {
+				trigger = { exists = cp:councillor_steward }
     			cp:councillor_steward ?= { save_scope_as = vassal_1 } #feast
     		}
     		2 = {
+				trigger = { exists = court_position:seneschal_court_position }
     			court_position:seneschal_court_position ?= { save_scope_as = vassal_1 } #feast
     		}
     		2 = {
+				trigger = { exists = court_position:travel_leader_court_position }
     			court_position:travel_leader_court_position ?= { save_scope_as = vassal_1 } #travel
     		}
     	}
     	random_list = {
     		1 = {
+				trigger = { exists = cp:councillor_marshal }
     			cp:councillor_marshal ?= { save_scope_as = vassal_2 } #hunt
     		}
     		2 = {
+				trigger = { exists = court_position:master_of_hunt_court_position }
     			court_position:master_of_hunt_court_position ?= { save_scope_as = vassal_2 } #hunt
     		}
     		2 = {
@@ -10897,10 +10912,12 @@ court.8140 = {
 							story_type = story_cycle_martial_lifestyle_warhorse
 						}
 					}
+					exists = court_position:master_of_horse_court_position
     			}
     			court_position:master_of_horse_court_position ?= { save_scope_as = vassal_2 } #horse
     		}
     		2 = {
+				trigger = { exists = court_position:court_physician_court_position }
     			court_position:court_physician_court_position ?= { save_scope_as = vassal_2 } #fresh air
     		}
     	}
